@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        body {
+            background-image: url(Image4.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin-bottom: 42.08%;
+
+            /* 42.08 */
+        }
+
+
+        #info {
+            color: whitesmoke;
+            margin-left: 3%;
+            padding-top: 30px;
+        }
+
+        #img1 img {
+            border-radius: 50%;
+            margin-left: 3%;
+            margin-top: 204px;
+
+        }
+
+        #icons {
+            margin-left: 2%;
+            padding: 30px;
+
+        }
+
+        #icons a img {
+            padding: 5px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin-left: 60%;
+            margin-top: -42%;
+
+
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            /* border: 2px solid black; */
+            /* display: block; */
+            width: 15%;
+            /* background-color: chartreuse; */
+            float: left;
+            padding: 1px;
+            color: whitesmoke;
+
+
+        }
+
+        nav ul li a:hover {
+            /* background-color: aqua; */
+            text-decoration: underline;
+            color: aqua;
+
+        }
+
+        #icons a img:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        #img1 img:hover {
+            animation: zoom 2s;
+
+        }
+
+        @keyframes zoom {
+            0% {
+                transform: scale(1);
+            }
+
+            /* 50% {
+                transform: scale(1.2);
+            } */
+
+            100% {
+                transform: scale(1.2);
+            }
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            margin-left: 30%;
+            margin-top: 5%;
+            /* 5% */
+        }
+
+        section {
+            padding: 60px 0;
+        }
+
+        /* h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 2.5em;
+            color: whitesmoke;
+        } */
+
+        .portfolio-grid {
+            display: grid;
+            gap: 20px;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        }
+
+        .portfolio-card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .portfolio-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .portfolio-card h3 {
+            margin-top: 0;
+            color: #333;
+        }
+
+        .portfolio-card p {
+            color: #666;
+            line-height: 1.6;
+            margin: px 0;
+        }
+
+        .portfolio-card p strong {
+            color: #007BFF;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div id="img1">
+        <img src="Akshay1.png" alt="Akshay" height="200px" width="200px">
+
+    </div>
+
+    <div id="info">
+        <h1>Biradar Akshay</h1>
+        <h2>Frontend Developer</h2>
+
+    </div>
+
+    <div id="icons">
+        <a href="https://github.com/akshay391998"><img src="Github.png" alt="Github" height="40px"></a>
+        <a href="https://www.linkedin.com/in/akshay-biradar-5226a121a/"><img src="Linkedin.png" alt="Linkedin"
+                height="40px"></a>
+        <a href="https://www.instagram.com/mr_akshay_biradar_03/?igsh=ODIwbHh6OHVvcnBz"><img src="Instagram.png"
+                alt="Instagram" height="40px"></a>
+
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <!-- <section id="portfolio">
+        <div class="container">
+            <div class="portfolio-grid">
+                <div class="portfolio-card">
+                    <p>
+                        Welcome to My Personal Portfolio!
+                        Welcome to my personal portfolio! This site is designed using HTML and CSS and showcases my
+                        education, projects, and skills. Explore to learn more about my background and expertise in web
+                        development.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section> -->
+
+
+</body>
+
+</html>

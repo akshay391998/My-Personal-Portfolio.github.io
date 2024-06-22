@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education</title>
+    <style>
+        body {
+            background-image: url(Image4.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            /* margin-bottom: 45.25%; */
+            /* margin-bottom: 34.65%; */
+            /* margin-bottom: 22.9%; */
+            margin-bottom: 9.35%;
+
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin-left: 60%;
+            margin-top: 4.3%;
+
+
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            /* border: 2px solid black; */
+            /* display: block; */
+            width: 15%;
+            /* background-color: chartreuse; */
+            float: left;
+            padding: 1px;
+            color: whitesmoke;
+
+
+        }
+
+        nav ul li a:hover {
+            /* background-color: aqua; */
+            text-decoration: underline;
+            color: aqua;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            margin-left: 1%;
+        }
+
+        section {
+            padding: 60px 0;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 2.5em;
+            color: whitesmoke;
+        }
+
+        /* Education Section */
+        .education-grid {
+            display: grid;
+            gap: 20px;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        }
+
+        .education-card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .education-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .education-card h3 {
+            margin-top: 0;
+            color: #333;
+        }
+
+        .education-card p {
+            color: #666;
+            line-height: 1.6;
+            margin: px 0;
+        }
+
+        .education-card p strong {
+            color: #007BFF;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background: #007BFF;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="education">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="education-grid">
+                <div class="education-card">
+                    <h3>Visvesvaraya Technological University</h3>
+                    <p><strong>Degree:</strong> Bachelor of Engineering</p>
+                    <p><strong>Year:</strong> 2017 - 2021</p>
+                    <p><strong>Grade:</strong> 7.16 CGPA</p>
+                </div>
+                <div class="education-card">
+                    <h3>Diamond Independent P.U Science College</h3>
+                    <p><strong>Degree:</strong>P.U.C</p>
+                    <p><strong>Year:</strong> 2015 - 2017</p>
+                    <p><strong>Percentage:</strong> 76%</p>
+                </div>
+                <div class="education-card">
+                    <h3>Seventh-Day Adventist High School</h3>
+                    <p><strong>Degree:</strong>S.S.L.C</p>
+                    <p><strong>Year:</strong> 2015</p>
+                    <p><strong>Percentage:</strong> 72%</p>
+                </div>
+                <!-- Add more education cards as needed -->
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
